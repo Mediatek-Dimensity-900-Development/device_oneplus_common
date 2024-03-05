@@ -79,7 +79,11 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0.vendor \
     libhidltransport.vendor \
     libhwbinder.vendor
-    
+
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.0.vendor
+        
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek
