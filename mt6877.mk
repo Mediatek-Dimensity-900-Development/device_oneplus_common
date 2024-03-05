@@ -83,21 +83,25 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor
-        
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek
-                                
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-    
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek
-    
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/oneplus/mt6877-common/mt6877-common-vendor.mk)
