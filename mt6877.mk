@@ -84,6 +84,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.mt6877
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek
