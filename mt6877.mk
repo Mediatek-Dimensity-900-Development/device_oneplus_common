@@ -16,6 +16,10 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
+    
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.mediatek
+    
 # Inherit the proprietary files
 $(call inherit-product, vendor/oneplus/mt6877-common/mt6877-common-vendor.mk)
