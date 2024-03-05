@@ -72,7 +72,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
-                            
+
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-mediatek
+                                
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 

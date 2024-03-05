@@ -4803,7 +4803,7 @@ vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib/libnxp_extamp_intf.so
 vendor/lib/libperfctl_vendor.so
 vendor/lib/libpkm.so
-vendor/lib/libpowerhal.so
+-vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libpq_cust_base.so
 vendor/lib/libpqpconfig.so
@@ -5027,7 +5027,7 @@ vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpkm.so
-vendor/lib64/libpowerhal.so
+-vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpqpconfig.so
