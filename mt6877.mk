@@ -131,6 +131,10 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Sensors
+PRODUCT_PACKAGES += \
+    libsensorndkbridge
+
 # Shims
 PRODUCT_PACKAGES += \
     libshim_audio

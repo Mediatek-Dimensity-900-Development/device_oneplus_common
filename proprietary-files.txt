@@ -1891,7 +1891,6 @@ vendor/lib/liboplus_mtkcam_lightsensorprovider.so
 vendor/lib/liboplus_platform_hwi.so
 vendor/lib/liboppo_arcSoftBokehEngine.so
 vendor/lib/libpq_prot.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/libstereoinfoaccessor_vsdof.so
 vendor/lib/libvpu.so
 vendor/lib/ov02b10_mipi_raw_IdxMgr.so
@@ -2123,7 +2122,6 @@ vendor/lib64/liboplus_mtkcam_lightsensorprovider.so
 vendor/lib64/liboplus_platform_hwi.so
 vendor/lib64/liboppo_arcSoftBokehEngine.so
 vendor/lib64/libpq_prot.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libvpu.so
 vendor/lib64/ov02b10_mipi_raw_IdxMgr.so
