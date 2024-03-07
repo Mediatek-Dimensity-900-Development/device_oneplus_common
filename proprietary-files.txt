@@ -1,5 +1,11 @@
 # Unpinned blobs from sys_mssi_64_cn_armv82-user 13 TP1A.220905.001 1705314231970 release-keys
 
+# Charger
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib/libshowlogo.so
+lib/libsysenv_system.so
+
 # ADSP
 odm/lib64/libadsprpc.so
 vendor/lib64/libadsprpc.so
