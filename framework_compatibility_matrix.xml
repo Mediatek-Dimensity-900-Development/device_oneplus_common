@@ -1,0 +1,291 @@
+<compatibility-matrix version="4.0" type="framework">
+<hal format="hidl" optional="true">
+    <name>android.hardware.audio</name>
+    <version>7.0</version>
+    <interface>
+	<name>IDevicesFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.audio.effect</name>
+    <version>7.0</version>
+    <interface>
+	<name>IEffectsFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.bluetooth.audio</name>
+    <version>2.1</version>
+    <interface>
+	<name>IBluetoothAudioProvidersFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.drm</name>
+    <version>1</version>
+    <interface>
+	<name>IDrmFactory</name>
+        <instance>clearkey</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.radio.config</name>
+    <version>1.3</version>
+    <interface>
+	<name>IRadioConfig</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.power</name>
+    <version>2</version>
+    <interface>
+	<name>IPower</name>
+	<instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.vibrator</name>
+    <version>2</version>
+    <interface>
+	<name>IVibrator</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.tetheroffload.control</name>
+    <version>1.1</version>
+    <interface>
+	<name>IOffloadControl</name>
+	<instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.hostapd</name>
+    <version>1</version>
+    <interface>
+	<name>IHostapd</name>
+	<instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.supplicant</name>
+    <version>1</version>
+    <interface>
+	<name>ISupplicant</name>
+	<instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.wifi</name>
+    <version>1.6</version>
+    <interface>
+	<name>IWifi</name>
+	<instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.aee</name>
+    <version>1.0-1</version>
+    <interface>
+        <name>IAee</name>
+        <instance>AEE</instance>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.apuware.apusys</name>
+    <version>2.0-1</version>
+    <interface>
+        <name>INeuronApusys</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.apuware.utils</name>
+    <version>2.0</version>
+    <interface>
+        <name>IApuwareUtils</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.apuware.xrp</name>
+    <version>2.0</version>
+    <interface>
+        <name>INeuronXrp</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.atci</name>
+    <version>1.0</version>
+    <interface>
+        <name>IAtcid</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.bluetooth.audio</name>
+    <version>2.0-2</version>
+    <interface>
+        <name>IBluetoothAudioProvidersFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.camera.atms</name>
+    <version>1.0</version>
+    <interface>
+        <name>IATMs</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.camera.isphal</name>
+    <version>1.0</version>
+    <interface>
+        <name>IISPModule</name>
+        <instance>internal/0</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.composer_ext</name>
+    <version>1.0</version>
+    <interface>
+        <name>IComposerExt</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.gpu</name>
+    <version>1.0</version>
+    <interface>
+        <name>IGraphicExt</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.keymaster_attestation</name>
+    <version>1.0-1</version>
+    <interface>
+        <name>IKeymasterDevice</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.log</name>
+    <version>1.0</version>
+    <interface>
+        <name>ILog</name>
+        <instance>ATMWiFiHidlServer</instance>
+        <instance>ConnsysFWHidlServer</instance>
+        <instance>LoggerHidlServer</instance>
+        <instance>MobileLogHidlServer</instance>
+        <instance>ModemLogHidlServer</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.mdmonitor</name>
+    <version>1.0</version>
+    <interface>
+        <name>IMDMonitorService</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.mms</name>
+    <version>1.0-6</version>
+    <interface>
+        <name>IMms</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.mtkpower</name>
+    <version>1.0-2</version>
+    <interface>
+        <name>IMtkPerf</name>
+        <instance>default</instance>
+    </interface>
+    <interface>
+        <name>IMtkPower</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.netdagent</name>
+    <version>1.0</version>
+    <interface>
+        <name>INetdagent</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.nvram</name>
+    <version>1.0-1</version>
+    <interface>
+        <name>INvram</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.nwk_opt</name>
+    <version>1.0</version>
+    <interface>
+        <name>INwkOpt</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.pq</name>
+    <version>2.0-15</version>
+    <interface>
+        <name>IPictureQuality</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.mediatek.hardware.videotelephony</name>
+    <version>1.0</version>
+    <interface>
+        <name>IVideoTelephony</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.nxp.nxpnfc</name>
+    <version>1.0</version>
+    <interface>
+        <name>INxpNfc</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.qti.hardware.soter</name>
+    <version>1.0</version>
+    <interface>
+        <name>ISoter</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.trustonic.tee.tui</name>
+    <version>1.0</version>
+    <interface>
+        <name>ITui</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.trustonic.tee</name>
+    <version>1.0-1</version>
+    <interface>
+        <name>ITee</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+</compatibility-matrix>
