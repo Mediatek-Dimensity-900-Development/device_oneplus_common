@@ -60,8 +60,11 @@ fi
 
 function blob_fixup {
     case "$1" in
-        vendor/lib*/hw/audio.primary.mt6768.so)
+        vendor/lib*/hw/audio.primary.mt6877.so)
             "${PATCHELF}" --add-needed "libshim_audio.so" "${2}"
+            ;;
+            vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod)
+            "${PATCHELF}" --add-needed "libshim_beanpod.so" "${2}"
             ;;
     esac
 }
