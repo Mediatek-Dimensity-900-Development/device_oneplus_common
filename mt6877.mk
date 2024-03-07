@@ -271,7 +271,7 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayMT6877 \
     TetheringConfigOverlayMT6877 \
     WifiOverlayMT6877
-    
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
@@ -284,7 +284,8 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libshim_audio \
-    libshim_beanpod
+    libshim_beanpod \
+    libshim_showlogo
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
