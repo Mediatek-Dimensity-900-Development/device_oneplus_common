@@ -251,6 +251,14 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlayMT6877 \
+    FrameworksResOverlayMT6877 \
+    SettingsOverlayMT6877 \
+    TelephonyOverlayMT6877 \
+    TetheringConfigOverlayMT6877 \
+    WifiOverlayMT6877
+    
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
