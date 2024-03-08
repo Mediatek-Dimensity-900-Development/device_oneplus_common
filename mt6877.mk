@@ -56,7 +56,7 @@ PRODUCT_PACKAGES += \
 # Biometrics
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.mt6877
-    
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
@@ -149,7 +149,7 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
-    
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor
@@ -282,7 +282,7 @@ PRODUCT_COPY_FILES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
+    android.hardware.usb@1.1-service.mt6877
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
