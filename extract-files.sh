@@ -63,16 +63,28 @@ function blob_fixup {
         vendor/lib*/hw/audio.primary.mt6877.so)
             "${PATCHELF}" --add-needed "libshim_audio.so" "${2}"
             ;;
-            vendor/lib64/libwifi-hal-mtk.so)
+        vendor/lib64/libwifi-hal-mtk.so)
             "$PATCHELF" --set-soname libwifi-hal-mtk.so "${2}"
             ;;
-            vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod)
+        vendor/lib64/libgf_hal.so)
+            sed -i 's|\x00\x14\xa0\x83_\xb8\xfd{C\xa9\xff\x03\x01\x91\xc0\x03_\xd6\xff\x83\x01\xd1\xfd{\x05\xa9\xfdC\x01\x91|\x00\x14\xa0\x83_\xb8\xfd{C\xa9\xff\x03\x01\x91\xc0\x03_\xd6\x00\x00\xe0\xd2\xc0\x03_\xd6\xfdC\x01\x91|g' "${2}"
+            ;;
+        vendor/lib64/hw/fingerprint.mt6877.so)
+            sed -i 's|\xc0\x03_\xd6\x00\x00\x00\x00\xff\x03\x01\xd1\xfd{\x02\xa9|\xc0\x03_\xd6\x00\x00\x00\x00\xc0\x03_\xd6\xfd{\x02\xa9|g' "${2}"
+            ;;
+        vendor/lib*/hw/dfps.mt6877.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
+            ;;
+        vendor/lib*/hw/vendor.mediatek.hardware.pq@2.6-impl.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
+            ;;
+        vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod)
             "${PATCHELF}" --add-needed "libshim_beanpod.so" "${2}"
             ;;
-            lib/libshowlogo.so)
+        lib/libshowlogo.so)
             "${PATCHELF}" --add-needed "libshim_showlogo.so" "${2}"
             ;;
-            lib/libsink.so)
+        lib/libsink.so)
             "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
             ;;
     esac
