@@ -3432,29 +3432,6 @@ system_ext/lib64/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so
 system_ext/lib64/vendor.oplus.hardware.fido.fido2ca@1.0.so
 system_ext/lib64/vendor.oplus.hardware.fido.fidoca@1.0.so
 
-# Power
-system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so
-system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so
-system_ext/lib/vendor.mediatek.hardware.mtkpower@1.2.so
-system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
-system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
-vendor/lib/hw/power.default.so
-vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
-vendor/lib/libpower_timer.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so
-vendor/lib64/hw/power.default.so
-vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
-vendor/lib64/libpower_timer.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
-
 # Radio
 odm/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so
